@@ -63,11 +63,11 @@
             <el-tab-pane label="角色管理">角色管理</el-tab-pane>
             <el-tab-pane label="定时任务补偿">定时任务补偿</el-tab-pane>
         </el-tabs>
-     
+
     </div>
 </template>
 <style scoped>
-    @import "../css/common.css";
+    @import "../../css/common.css";
     a{
         font-size: 20px;
     }
@@ -76,7 +76,7 @@
         background-position: 50% 50%;
         width: 100%;
         height: 780px;
-        padding: 100px; 
+        padding: 100px;
     }
     .infoForm {
         padding: 20px;
