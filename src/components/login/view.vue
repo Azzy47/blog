@@ -1,6 +1,6 @@
 <template>
   <div class="hello">
-    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../../css/common.css">
     <!-- <h1>{{ msg }}</h1> -->
     <!-- <h2>Essential Links</h2> -->
     <!-- <img class="bgImg" src="/static/images/500074312.jpg" alt=""> -->
@@ -51,7 +51,7 @@
 <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.js"></script>
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-    @import "../css/common.css";
+    @import "../../css/common.css";
     .redius{
         border-top-left-radius: 5px;
         border-top-right-radius: 5px;
@@ -181,14 +181,14 @@
               this.$router.push({path: '/Setting'});
             //   在新的页面打开
             // let routeData = this.$router.resolve({ path: '/Setting'});
-            // window.open(routeData.href, '_blank');  
+            // window.open(routeData.href, '_blank');
           } else {
             console.log('error submit!!');
             return false;
           }
         });
       },
-      
+
       // 重置登录表单
       resetForm(formName) {
         this.$refs[formName].resetFields();
